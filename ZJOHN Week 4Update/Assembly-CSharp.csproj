@@ -51,19 +51,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Movment3dplus.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\CollideAction.cs" />
+     <Compile Include="Assets\Scripts\enemyAI.cs" />
      <Compile Include="Assets\Scripts\movment3d.cs" />
+     <Compile Include="Assets\Scripts\Movment3dplus.cs" />
      <Compile Include="Assets\Scripts\Playermove.cs" />
      <Compile Include="Assets\Scripts\RandomGen.cs" />
      <Compile Include="Assets\Scripts\read.cs" />
      <Compile Include="Assets\Scripts\Rotatorbutevil.cs" />
      <Compile Include="Assets\Scripts\Rotatorforpoints.cs" />
      <Compile Include="Assets\Scripts\Rotatoringold.cs" />
-     <Compile Include="Assets\testmove.cs" />
-     <Compile Include="Assets\Thrust.cs" />
+     <Compile Include="Assets\Scripts\Spawn.cs" />
+     <Compile Include="Assets\Scripts\testmove.cs" />
+     <Compile Include="Assets\Scripts\Thrust.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/student/Desktop/ZJOHN Week 4Update/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/student/Documents/GitHub/ZachariLJohn.github.io/ZJOHN Week 4Update/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
